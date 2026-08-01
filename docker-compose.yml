@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: adriano-portfolio:web
+    container_name: adriano-portfolio-web
+    restart: unless-stopped
+    ports:
+      - '127.0.0.1:3001:3000'
