@@ -1,7 +1,6 @@
 services:
   web:
     build: .
-    image: adriano-portfolio:web
     container_name: adriano-portfolio-web
     restart: unless-stopped
     ports:
